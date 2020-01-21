@@ -1,0 +1,1204 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  z-index: -9999; }
+
+.overlay {
+  display: none;
+  top: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  position: fixed;
+  z-index: 9999;
+  overflow: auto; }
+  .overlay i {
+    font-size: 36px;
+    color: white;
+    text-align: right;
+    padding-top: 40px;
+    margin-right: 80px;
+    float: right; }
+    .overlay i:hover {
+      cursor: pointer; }
+  .overlay .thanksGreeting {
+    background-color: white;
+    width: 450px;
+    height: 400px;
+    margin: 150px auto 0px auto;
+    border-radius: 10px; }
+    .overlay .thanksGreeting h2 {
+      font-family: "Raleway", sans-serif;
+      font-size: 36px;
+      text-align: center;
+      color: black;
+      padding-top: 90px;
+      font-weight: 600; }
+    .overlay .thanksGreeting p {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      text-align: center;
+      color: black;
+      width: 380px;
+      margin: 30px auto; }
+  @media only screen and (max-width: 320px) {
+    .overlay i {
+      font-size: 24px;
+      margin-right: 20px;
+      padding-top: 20px; }
+    .overlay .thanksGreeting {
+      width: 280px;
+      height: 280px;
+      margin: 140px auto; }
+      .overlay .thanksGreeting h2 {
+        font-size: 28px;
+        padding-top: 50px; }
+      .overlay .thanksGreeting p {
+        font-size: 18px;
+        width: 250px; } }
+  @media only screen and (min-width: 321px) and (max-width: 540px) {
+    .overlay i {
+      font-size: 24px;
+      margin-right: 20px;
+      padding-top: 20px; }
+    .overlay .thanksGreeting {
+      width: 280px;
+      height: 280px;
+      margin: 120px auto; }
+      .overlay .thanksGreeting h2 {
+        font-size: 28px;
+        padding-top: 50px; }
+      .overlay .thanksGreeting p {
+        font-size: 18px;
+        width: 250px; } }
+  @media only screen and (min-width: 541px) and (max-width: 720px) {
+    .overlay i {
+      font-size: 26px;
+      margin-right: 20px;
+      padding-top: 20px; }
+    .overlay .thanksGreeting {
+      width: 500px;
+      height: 450px;
+      margin: 140px auto; }
+      .overlay .thanksGreeting h2 {
+        font-size: 32px;
+        padding-top: 120px; }
+      .overlay .thanksGreeting p {
+        font-size: 24px;
+        width: 400px; } }
+
+.top_body {
+  width: 100%;
+  height: 657px;
+  background-image: url("../img/pic1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(2, 2, 2, 0.625);
+  background-blend-mode: overlay;
+  clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%); }
+  .top_body .top-nav {
+    width: 100%;
+    height: 70px; }
+    .top_body .top-nav .top-logo {
+      width: 130px;
+      height: 40px;
+      margin: 20px 0px 0px 99px;
+      float: left; }
+      .top_body .top-nav .top-logo a {
+        display: inline-flex; }
+        .top_body .top-nav .top-logo a h3 {
+          font-family: "Raleway", sans-serif;
+          font-size: 28px;
+          font-weight: 700;
+          color: white; }
+        .top_body .top-nav .top-logo a .sub-txt {
+          color: #833636; }
+    .top_body .top-nav .top-btn {
+      width: 300px;
+      height: 40px;
+      float: right;
+      margin-top: 20px;
+      margin-right: 72px; }
+      .top_body .top-nav .top-btn button {
+        padding: 8px 10px;
+        font-size: 13px;
+        border-radius: 5px;
+        border: none;
+        background-color: #474777;
+        color: white;
+        margin-left: 10px;
+        font-family: "Poppins", sans-serif; }
+      .top_body .top-nav .top-btn button:hover {
+        cursor: pointer;
+        color: white;
+        background-color: #4d4dd8;
+        transition: 2s; }
+  .top_body h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin: 197px auto 5px auto;
+    color: white; }
+  .top_body p {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: white; }
+  .top_body #btn_2 {
+    text-align: center;
+    display: block; }
+    .top_body #btn_2 .btn-2 {
+      padding: 10px 11px;
+      font-size: 14px;
+      border-radius: 5px;
+      border: none;
+      background-color: #474777;
+      color: white;
+      font-family: "Poppins", sans-serif; }
+      .top_body #btn_2 .btn-2:hover {
+        cursor: pointer;
+        color: white;
+        background-color: #4d4dd8;
+        transition: 2s; }
+  @media only screen and (max-width: 320px) {
+    .top_body {
+      height: 450px;
+      clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%); }
+      .top_body .top-nav {
+        height: 60px; }
+        .top_body .top-nav .top-logo {
+          margin: 20px 0px 0px 20px; }
+          .top_body .top-nav .top-logo a h3 {
+            margin-bottom: 0px;
+            font-size: 30px; }
+        .top_body .top-nav .top-btn {
+          display: none; }
+      .top_body h1 {
+        margin: 60px 0px 10px 20px;
+        font-size: 32px;
+        text-align: left; }
+      .top_body p {
+        font-size: 18px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-right: 5px; }
+      .top_body #btn_2 {
+        text-align: left; }
+        .top_body #btn_2 .btn-2 {
+          padding: 8px 10px;
+          font-size: 12px;
+          margin: 5px 0px 0px 20px; } }
+  @media only screen and (min-width: 321px) and (max-width: 540px) {
+    .top_body {
+      height: 450px;
+      clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%); }
+      .top_body .top-nav {
+        height: 60px; }
+        .top_body .top-nav .top-logo {
+          margin: 20px 0px 0px 20px; }
+          .top_body .top-nav .top-logo a h3 {
+            margin-bottom: 0px;
+            font-size: 30px; }
+        .top_body .top-nav .top-btn {
+          display: none; }
+      .top_body h1 {
+        margin: 60px 0px 10px 20px;
+        font-size: 32px;
+        text-align: left; }
+      .top_body p {
+        font-size: 18px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-right: 10px; }
+      .top_body #btn_2 {
+        text-align: left; }
+        .top_body #btn_2 .btn-2 {
+          padding: 8px 10px;
+          font-size: 12px;
+          margin: 5px 0px 0px 20px; } }
+  @media only screen and (min-width: 541px) and (max-width: 720px) {
+    .top_body {
+      height: 450px;
+      clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%); }
+      .top_body .top-nav .top-logo {
+        margin-left: 40px; }
+      .top_body .top-nav .top-btn {
+        margin-right: 20px; }
+      .top_body h1 {
+        font-size: 28px;
+        margin-top: 110px; }
+      .top_body p {
+        font-size: 18px; }
+      .top_body .btn-2 {
+        margin: auto 240px; } }
+  @media only screen and (min-width: 721px) and (max-width: 1024px) {
+    .top_body .top-nav .top-logo {
+      margin-left: 40px; }
+      .top_body .top-nav .top-logo a h3 {
+        font-size: 28px; }
+    .top_body .top-nav .top-btn {
+      margin-right: 40px; }
+    .top_body h1 {
+      font-size: 36px;
+      margin-top: 140px; }
+    .top_body p {
+      font-size: 22px; }
+    .top_body .btn-2 {
+      margin: 5px 320px; } }
+
+.whatWeDo-sec {
+  width: 100%;
+  height: 410px; }
+  .whatWeDo-sec h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 700;
+    margin-top: 30px; }
+  .whatWeDo-sec .purposeSec {
+    width: 100%;
+    height: 300px;
+    display: inline-flex; }
+    .whatWeDo-sec .purposeSec .eachPurpose {
+      display: block;
+      width: 250px;
+      height: 300px;
+      text-align: center;
+      margin: 30px auto 0px auto; }
+      .whatWeDo-sec .purposeSec .eachPurpose i {
+        font-size: 40px;
+        color: #474777;
+        margin-bottom: 30px; }
+      .whatWeDo-sec .purposeSec .eachPurpose h4 {
+        font-family: "Raleway", sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        color: #474777;
+        margin-bottom: 20px; }
+      .whatWeDo-sec .purposeSec .eachPurpose p {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px; }
+  @media only screen and (max-width: 320px) {
+    .whatWeDo-sec {
+      height: 980px; }
+      .whatWeDo-sec h3 {
+        font-size: 24px;
+        margin-top: 0px; }
+      .whatWeDo-sec .purposeSec {
+        height: 900px;
+        display: block; }
+        .whatWeDo-sec .purposeSec .eachPurpose {
+          height: 250px;
+          margin: auto; } }
+  @media only screen and (min-width: 321px) and (max-width: 540px) {
+    .whatWeDo-sec {
+      height: 980px; }
+      .whatWeDo-sec h3 {
+        font-size: 24px;
+        margin-top: 0px; }
+      .whatWeDo-sec .purposeSec {
+        height: 900px;
+        display: block; }
+        .whatWeDo-sec .purposeSec .eachPurpose {
+          height: 250px;
+          margin: auto;
+          width: 300px; }
+          .whatWeDo-sec .purposeSec .eachPurpose h4 {
+            font-size: 23px; }
+          .whatWeDo-sec .purposeSec .eachPurpose p {
+            font-size: 17px; } }
+  @media only screen and (min-width: 541px) and (max-width: 720px) {
+    .whatWeDo-sec {
+      height: 400px; }
+      .whatWeDo-sec h3 {
+        font-size: 24px; }
+      .whatWeDo-sec .purposeSec {
+        height: 320px; }
+        .whatWeDo-sec .purposeSec .eachPurpose {
+          height: 200px;
+          margin: 30px 20px 0px 20px; }
+          .whatWeDo-sec .purposeSec .eachPurpose i {
+            font-size: 36px; }
+          .whatWeDo-sec .purposeSec .eachPurpose h4 {
+            font-size: 18px;
+            margin-top: 25px; }
+          .whatWeDo-sec .purposeSec .eachPurpose P {
+            font-size: 12px; } }
+
+.TestimonialSec {
+  width: 100%;
+  height: 550px;
+  background-color: #474777;
+  clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0% 100%); }
+  .TestimonialSec h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 700;
+    margin-top: 100px; }
+  .TestimonialSec .testimonialBody {
+    width: 100%;
+    height: 350px;
+    display: inline-flex; }
+    .TestimonialSec .testimonialBody .eachTestimony {
+      display: block;
+      width: 250px;
+      height: 250px;
+      text-align: center;
+      margin: 60px auto 0px auto; }
+      .TestimonialSec .testimonialBody .eachTestimony i {
+        font-size: 48px;
+        color: rgba(255, 255, 255, 0.169);
+        margin-bottom: 20px; }
+      .TestimonialSec .testimonialBody .eachTestimony p {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        color: white; }
+      .TestimonialSec .testimonialBody .eachTestimony h5 {
+        font-family: "Raleway", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color: white; }
+  @media only screen and (max-width: 320px) {
+    .TestimonialSec {
+      clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+      height: 1100px; }
+      .TestimonialSec h3 {
+        font-size: 24px;
+        margin-top: 55px; }
+      .TestimonialSec .testimonialBody {
+        height: 980px;
+        display: block; }
+        .TestimonialSec .testimonialBody .eachTestimony {
+          margin: auto; } }
+  @media only screen and (min-width: 321px) and (max-width: 540px) {
+    .TestimonialSec {
+      clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+      height: 1100px; }
+      .TestimonialSec h3 {
+        font-size: 24px;
+        margin-top: 55px; }
+      .TestimonialSec .testimonialBody {
+        height: 980px;
+        display: block; }
+        .TestimonialSec .testimonialBody .eachTestimony {
+          margin: auto;
+          width: 300px; }
+          .TestimonialSec .testimonialBody .eachTestimony p {
+            font-size: 17px; } }
+  @media only screen and (min-width: 541px) and (max-width: 720px) {
+    .TestimonialSec {
+      clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+      height: 400px; }
+      .TestimonialSec h3 {
+        font-size: 24px;
+        margin-top: 30px; }
+      .TestimonialSec .testimonialBody {
+        height: 320px; }
+        .TestimonialSec .testimonialBody .eachTestimony {
+          height: 300px;
+          margin: 30px 20px 0px 20px; }
+          .TestimonialSec .testimonialBody .eachTestimony i {
+            font-size: 36px; }
+          .TestimonialSec .testimonialBody .eachTestimony p {
+            font-size: 12px; }
+          .TestimonialSec .testimonialBody .eachTestimony h5 {
+            font-size: 14px; } }
+
+.registerForm {
+  width: 100%;
+  height: 750px;
+  background-image: url("../img/pic2.jpg");
+  background-color: rgba(0, 0, 0, 0.68);
+  background-position: center;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .registerForm h3 {
+    font-size: 28px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-weight: 700;
+    margin-bottom: 20px; }
+  .registerForm .registerInputs {
+    width: 40%;
+    height: 550px;
+    margin: 20px auto;
+    padding: 20px 0px; }
+    .registerForm .registerInputs label {
+      margin-top: 16px;
+      margin-bottom: 5px; }
+      .registerForm .registerInputs label b {
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: #cac7c7; }
+    .registerForm .registerInputs input {
+      width: 100%;
+      padding: 10px 15px;
+      border-radius: 10px;
+      border: 2px solid #777575;
+      background-color: transparent; }
+    .registerForm .registerInputs #inputGroupSelect01 {
+      width: 100%;
+      padding: 10px 15px;
+      border-radius: 5px;
+      border: 2px solid #777575;
+      background-color: transparent;
+      color: white; }
+      .registerForm .registerInputs #inputGroupSelect01 option {
+        color: black; }
+    .registerForm .registerInputs #docpicker {
+      padding-right: 126px;
+      margin-top: 20px;
+      border: 1px solid white;
+      border-radius: 5px;
+      margin-top: 0px;
+      color: white;
+      background-color: transparent; }
+    .registerForm .registerInputs button {
+      margin-top: 30px;
+      padding: 9px 14px;
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+      background-color: #474777;
+      border: none;
+      border-radius: 5px;
+      color: white; }
+    .registerForm .registerInputs button:hover {
+      background-color: #4d4dd8;
+      cursor: pointer;
+      transition: 2s; }
+  @media only screen and (max-width: 320px) {
+    .registerForm {
+      height: 700px;
+      background-position: right; }
+      .registerForm h3 {
+        font-size: 24px;
+        margin-top: 30px; }
+      .registerForm .registerInputs {
+        width: 80%;
+        padding: 0px; }
+        .registerForm .registerInputs label b {
+          font-size: 14px; }
+        .registerForm .registerInputs input {
+          padding: 9px 80px 9px 10px; }
+        .registerForm .registerInputs #inputGroupSelect01 {
+          padding: 9px 147px 9px 10px; }
+        .registerForm .registerInputs #docpicker {
+          padding-right: 36px;
+          font-size: 12px; }
+        .registerForm .registerInputs button {
+          font-size: 13px;
+          padding: 9px 12px; } }
+  @media only screen and (min-width: 321px) and (max-width: 540px) {
+    .registerForm {
+      height: 700px;
+      background-position: right; }
+      .registerForm h3 {
+        font-size: 24px;
+        margin-top: 30px; }
+      .registerForm .registerInputs {
+        width: 80%;
+        padding: 0px; }
+        .registerForm .registerInputs label b {
+          font-size: 14px; }
+        .registerForm .registerInputs input {
+          width: 100%; }
+        .registerForm .registerInputs #inputGroupSelect01 {
+          width: 100%;
+          padding: 10px; }
+        .registerForm .registerInputs #docpicker {
+          width: 100%;
+          font-size: 12px; }
+        .registerForm .registerInputs button {
+          font-size: 14px;
+          padding: 10px 12px; } }
+  @media only screen and (min-width: 541px) and (max-width: 720px) {
+    .registerForm h3 {
+      font-size: 24px; }
+    .registerForm .registerInputs {
+      width: 80%; } }
+  @media only screen and (min-width: 721px) and (max-width: 1024px) {
+    .registerForm .registerInputs {
+      width: 55%; } }
+
+.footerSec {
+  width: 100%;
+  height: 380px;
+  background-color: #474777;
+  display: inline-flex; }
+  .footerSec .AboutTxt {
+    width: 320px;
+    height: 280px;
+    padding-top: 80px;
+    margin-left: 99px; }
+    .footerSec .AboutTxt h3 {
+      font-family: "Raleway", sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 25px; }
+    .footerSec .AboutTxt p {
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: rgba(255, 255, 255, 0.734); }
+  .footerSec .locationSec {
+    width: 320px;
+    height: 280px;
+    padding-top: 80px;
+    margin-left: 99px; }
+    .footerSec .locationSec h3 {
+      font-family: "Raleway", sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 25px; }
+    .footerSec .locationSec p {
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: rgba(255, 255, 255, 0.734); }
+  .footerSec .contactSec {
+    width: 320px;
+    height: 280px;
+    padding-top: 80px;
+    margin-left: 99px; }
+    .footerSec .contactSec h3 {
+      font-family: "Raleway", sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 25px; }
+    .footerSec .contactSec .fab {
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.734);
+      margin: 0px 15px 0px 0px; }
+  .footerSec .phoneNumber {
+    display: inline-flex;
+    margin-top: 20px; }
+    .footerSec .phoneNumber .fas {
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.734);
+      margin: 0px 10px 0px 0px; }
+    .footerSec .phoneNumber p {
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.734); }
+  @media only screen and (max-width: 320px) {
+    .footerSec {
+      height: 680px;
+      display: inline-block; }
+      .footerSec .AboutTxt {
+        width: 280px;
+        height: 210px;
+        padding-top: 40px;
+        margin-left: 20px; }
+        .footerSec .AboutTxt h3 {
+          font-size: 20px; }
+        .footerSec .AboutTxt p {
+          font-size: 15px; }
+      .footerSec .locationSec {
+        width: 280px;
+        height: 210px;
+        padding-top: 40px;
+        margin-left: 20px; }
+        .footerSec .locationSec h3 {
+          font-size: 20px; }
+        .footerSec .locationSec p {
+          font-size: 15px; }
+      .footerSec .contactSec {
+        width: 280px;
+        height: 210px;
+        padding-top: 40px;
+        margin-left: 20px; } }
+  @media only screen and (min-width: 321px) and (max-width: 540px) {
+    .footerSec {
+      height: 680px;
+      display: inline-block; }
+      .footerSec .AboutTxt {
+        width: 88%;
+        height: 210px;
+        padding-top: 40px;
+        margin-left: 20px; }
+        .footerSec .AboutTxt h3 {
+          font-size: 22px; }
+        .footerSec .AboutTxt p {
+          font-size: 16px; }
+      .footerSec .locationSec {
+        width: 300px;
+        height: 210px;
+        padding-top: 40px;
+        margin-left: 20px; }
+        .footerSec .locationSec h3 {
+          font-size: 22px; }
+        .footerSec .locationSec p {
+          font-size: 16px; }
+      .footerSec .contactSec {
+        width: 300px;
+        height: 210px;
+        padding-top: 40px;
+        margin-left: 20px; } }
+  @media only screen and (min-width: 541px) and (max-width: 720px) {
+    .footerSec {
+      height: 300px; }
+      .footerSec .AboutTxt {
+        margin-left: 40px; }
+        .footerSec .AboutTxt h3 {
+          font-size: 18px;
+          margin-bottom: 20px; }
+        .footerSec .AboutTxt p {
+          font-size: 12px; }
+      .footerSec .locationSec {
+        margin-left: 30px; }
+        .footerSec .locationSec h3 {
+          font-size: 18px;
+          margin-bottom: 20px; }
+        .footerSec .locationSec p {
+          font-size: 12px; }
+      .footerSec .contactSec {
+        margin-left: 30px; }
+        .footerSec .contactSec h3 {
+          font-size: 18px;
+          margin-bottom: 20px; }
+        .footerSec .contactSec .fab {
+          font-size: 16px; }
+      .footerSec .phoneNumber {
+        margin-top: 15px; }
+        .footerSec .phoneNumber p {
+          font-size: 12px; } }
+
+.copyrightSec {
+  width: 100%;
+  height: 70px;
+  background-color: black; }
+  .copyrightSec p {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 30px; }
+    .copyrightSec p b {
+      font-weight: 700; }
+
+.topmostnav {
+  width: 100%;
+  height: 70px;
+  background-color: #474777; }
+  .topmostnav .top-logo {
+    width: 130px;
+    height: 40px;
+    margin: 20px 0px 0px 99px;
+    float: left; }
+    .topmostnav .top-logo a {
+      display: inline-flex; }
+      .topmostnav .top-logo a h3 {
+        font-family: "Raleway", sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        color: white; }
+      .topmostnav .top-logo a .sub-txt {
+        color: #833636; }
+  .topmostnav i.fa.fa-bars {
+    display: none; }
+  .topmostnav .top_item {
+    width: 300px;
+    height: 40px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 72px;
+    display: inline-flex; }
+    .topmostnav .top_item .dropdown {
+      width: 80px;
+      height: 30px;
+      margin-left: 35px; }
+      .topmostnav .top_item .dropdown button {
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        border: none;
+        outline: none;
+        color: white;
+        background-color: transparent;
+        font-weight: 600;
+        display: inline-flex; }
+        .topmostnav .top_item .dropdown button i {
+          font-size: 18px;
+          color: white;
+          margin-left: 5px; }
+        .topmostnav .top_item .dropdown button:hover {
+          cursor: pointer;
+          color: rgba(255, 253, 253, 0.734);
+          transition: 1s; }
+      .topmostnav .top_item .dropdown .drop_item {
+        min-width: 180px;
+        height: 285px;
+        background-color: white;
+        margin-top: 5px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        display: none; }
+        .topmostnav .top_item .dropdown .drop_item a {
+          font-size: 15px;
+          font-family: "Poppins", sans-serif;
+          margin-left: 10px;
+          display: block;
+          text-decoration: none;
+          margin-bottom: 15px;
+          color: black;
+          font-weight: 600; }
+          .topmostnav .top_item .dropdown .drop_item a:hover {
+            cursor: pointer;
+            color: #0832af;
+            transition: 1s; }
+      .topmostnav .top_item .dropdown:hover {
+        cursor: pointer; }
+        .topmostnav .top_item .dropdown:hover .drop_item {
+          display: block; }
+    .topmostnav .top_item .dropdown-1 {
+      width: 80px;
+      height: 30px;
+      margin-left: 40px; }
+      .topmostnav .top_item .dropdown-1 button {
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        border: none;
+        outline: none;
+        color: white;
+        background-color: transparent;
+        font-weight: 600;
+        display: inline-flex; }
+        .topmostnav .top_item .dropdown-1 button i {
+          font-size: 18px;
+          color: white;
+          margin-left: 5px; }
+        .topmostnav .top_item .dropdown-1 button:hover {
+          cursor: pointer;
+          color: rgba(255, 253, 253, 0.734);
+          transition: 1s; }
+      .topmostnav .top_item .dropdown-1 .drop_item {
+        min-width: 160px;
+        height: 150px;
+        background-color: white;
+        margin-top: 5px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        display: none; }
+        .topmostnav .top_item .dropdown-1 .drop_item a {
+          font-size: 15px;
+          font-family: "Poppins", sans-serif;
+          margin-left: 10px;
+          display: block;
+          text-decoration: none;
+          margin-bottom: 15px;
+          color: black;
+          font-weight: 600; }
+          .topmostnav .top_item .dropdown-1 .drop_item a:hover {
+            cursor: pointer;
+            color: #0832af;
+            transition: 1s; }
+      .topmostnav .top_item .dropdown-1:hover {
+        cursor: pointer; }
+        .topmostnav .top_item .dropdown-1:hover .drop_item {
+          display: block; }
+  @media only screen and (max-width: 540px) {
+    .topmostnav {
+      height: 60px; }
+      .topmostnav .top-logo {
+        margin: 10px 0px 0px 99px;
+        margin-left: 20px; }
+        .topmostnav .top-logo a h3 {
+          font-size: 30px; }
+      .topmostnav i.fa.fa-bars {
+        display: block;
+        text-align: right;
+        padding-right: 20px;
+        padding-top: 20px;
+        color: #fff;
+        cursor: pointer; }
+      .topmostnav .top_item {
+        display: none; } }
+  @media only screen and (min-width: 541px) and (max-width: 720px) {
+    .topmostnav .top-logo {
+      margin-left: 32px; }
+      .topmostnav .top-logo a h3 {
+        font-size: 24px; }
+    .topmostnav .top_item {
+      width: 200px;
+      margin-right: 48px; }
+      .topmostnav .top_item .dropdown {
+        margin-left: 24px; }
+        .topmostnav .top_item .dropdown button {
+          font-size: 14px; }
+          .topmostnav .top_item .dropdown button i {
+            font-size: 16px; }
+        .topmostnav .top_item .dropdown .drop_item {
+          min-width: 150px; }
+          .topmostnav .top_item .dropdown .drop_item a {
+            font-size: 13px; }
+      .topmostnav .top_item .dropdown-1 button {
+        font-size: 14px; }
+        .topmostnav .top_item .dropdown-1 button i {
+          font-size: 16px; }
+      .topmostnav .top_item .dropdown-1 .drop_item {
+        min-width: 100px; }
+        .topmostnav .top_item .dropdown-1 .drop_item a {
+          font-size: 13px; } }
+  @media only screen and (min-width: 721px) and (max-width: 1024px) {
+    .topmostnav .top-logo {
+      margin-left: 32px; }
+      .topmostnav .top-logo a h3 {
+        font-size: 24px; }
+    .topmostnav .top_item {
+      width: 200px;
+      margin-right: 48px; }
+      .topmostnav .top_item .dropdown {
+        margin-left: 24px; }
+        .topmostnav .top_item .dropdown button {
+          font-size: 14px; }
+          .topmostnav .top_item .dropdown button i {
+            font-size: 16px; }
+        .topmostnav .top_item .dropdown .drop_item {
+          min-width: 150px; }
+          .topmostnav .top_item .dropdown .drop_item a {
+            font-size: 13px; }
+      .topmostnav .top_item .dropdown-1 button {
+        font-size: 14px; }
+        .topmostnav .top_item .dropdown-1 button i {
+          font-size: 16px; }
+      .topmostnav .top_item .dropdown-1 .drop_item {
+        min-width: 100px; }
+        .topmostnav .top_item .dropdown-1 .drop_item a {
+          font-size: 13px; } }
+
+.fade {
+  display: none; }
+
+.description {
+  width: 100%;
+  height: 1650px; }
+  .description h3 {
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    margin-left: 99px;
+    margin-top: 60px;
+    font-weight: 700;
+    margin-bottom: 15px; }
+  .description .teachercards {
+    width: 100%;
+    height: 530px;
+    display: inline-flex; }
+    .description .teachercards .cards {
+      width: 290px;
+      height: 450px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      margin-left: 99px;
+      margin-top: 60px;
+      margin-right: 50px; }
+      .description .teachercards .cards img {
+        width: 290px;
+        height: 150px; }
+      .description .teachercards .cards h5 {
+        font-weight: 600;
+        font-family: "Raleway", sans-serif;
+        margin-top: 10px;
+        margin-bottom: 3px;
+        color: #474777;
+        margin-left: 10px; }
+      .description .teachercards .cards p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        margin-bottom: 7px;
+        font-size: 14px;
+        color: #707070;
+        margin-left: 10px; }
+      .description .teachercards .cards .text_2 {
+        font-weight: 500;
+        color: black;
+        margin-bottom: 12px;
+        width: 275px; }
+      .description .teachercards .cards .mediaconnect {
+        display: flex;
+        margin: 10px auto;
+        justify-content: center; }
+        .description .teachercards .cards .mediaconnect i {
+          text-align: center;
+          margin: 10px 15px; }
+      .description .teachercards .cards button {
+        padding: 8px 16px;
+        font-size: 13px;
+        border-radius: 5px;
+        border: none;
+        background-color: #474777;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        margin: 14px 120px; }
+  @media only screen and (max-width: 320px) {
+    .description {
+      height: 4650px; }
+      .description h3 {
+        font-size: 26px;
+        margin-left: 20px; }
+      .description .teachercards {
+        display: block;
+        height: 1500px; }
+        .description .teachercards .cards {
+          margin: 40px auto 50px auto;
+          width: 250px; }
+          .description .teachercards .cards img {
+            width: 250px; }
+          .description .teachercards .cards h5 {
+            font-size: 18px; }
+          .description .teachercards .cards p {
+            font-size: 12px; }
+          .description .teachercards .cards .text_2 {
+            width: 230px; }
+          .description .teachercards .cards .mediaconnect {
+            width: 70%; }
+          .description .teachercards .cards button {
+            margin: 14px 96px; } }
+  @media only screen and (min-width: 321px) and (max-width: 540px) {
+    .description {
+      height: 4650px; }
+      .description h3 {
+        font-size: 26px;
+        margin-left: 20px; }
+      .description .teachercards {
+        display: block;
+        height: 1500px; }
+        .description .teachercards .cards {
+          margin: 40px auto 50px auto;
+          width: 300px; }
+          .description .teachercards .cards img {
+            width: 300px; }
+          .description .teachercards .cards h5 {
+            font-size: 20px; }
+          .description .teachercards .cards p {
+            font-size: 14px; }
+          .description .teachercards .cards .text_2 {
+            width: 270px; }
+          .description .teachercards .cards button {
+            margin: 14px 120px; } }
+  @media only screen and (min-width: 541px) and (max-width: 720px) {
+    .description h3 {
+      margin-left: 32px;
+      font-size: 26px; }
+    .description .teachercards .cards {
+      width: 175px;
+      margin-left: 30px;
+      margin-right: 5px; }
+      .description .teachercards .cards img {
+        width: 175px;
+        height: 120px; }
+      .description .teachercards .cards p {
+        font-size: 12px; }
+      .description .teachercards .cards .text_2 {
+        width: 94%; }
+      .description .teachercards .cards button {
+        margin: 14px 58px; } }
+  @media only screen and (min-width: 721px) and (max-width: 1024px) {
+    .description h3 {
+      margin-left: 32px;
+      font-size: 26px; }
+    .description .teachercards .cards {
+      width: 27%;
+      margin: 20px auto; }
+      .description .teachercards .cards img {
+        width: 100%;
+        height: 120px; }
+      .description .teachercards .cards p {
+        font-size: 12px; }
+      .description .teachercards .cards .text_2 {
+        width: 94%; }
+      .description .teachercards .cards button {
+        margin-top: 14px;
+        margin-left: 38%;
+        margin-right: 0px; } }
+
+.indicator-sect {
+  width: 100%;
+  height: 100px; }
+  .indicator-sect .indicatorSpace {
+    text-align: center;
+    width: 100%; }
+    .indicator-sect .indicatorSpace .slide_indicator {
+      width: 30%;
+      height: 80px;
+      display: flex;
+      margin: auto; }
+      .indicator-sect .indicatorSpace .slide_indicator a {
+        font-size: 32px;
+        font-weight: 700;
+        color: #474777;
+        line-height: 2.7;
+        margin: auto 30px; }
+        .indicator-sect .indicatorSpace .slide_indicator a:hover, .indicator-sect .indicatorSpace .slide_indicator a:active {
+          color: #8585a8;
+          transition: 0.7s; }
+      .indicator-sect .indicatorSpace .slide_indicator .indicator_Num {
+        display: flex; }
+        .indicator-sect .indicatorSpace .slide_indicator .indicator_Num .Numb {
+          width: 45px;
+          height: 45px;
+          border-radius: 50%;
+          border: 4px solid white;
+          background-color: #474777;
+          color: white;
+          font-weight: 700;
+          font-size: 20px;
+          text-align: center;
+          line-height: 2;
+          margin: auto 24px;
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
+          .indicator-sect .indicatorSpace .slide_indicator .indicator_Num .Numb:hover, .indicator-sect .indicatorSpace .slide_indicator .indicator_Num .Numb:active {
+            cursor: pointer;
+            border: 4px solid #474777;
+            background-color: white;
+            color: #474777;
+            transition: 0.9s; }
+        .indicator-sect .indicatorSpace .slide_indicator .indicator_Num .Numb.active {
+          cursor: pointer;
+          border: 4px solid #474777;
+          background-color: white;
+          color: #474777;
+          transition: 0.9s; }
+  @media only screen and (max-width: 320px) {
+    .indicator-sect {
+      height: 80px; }
+      .indicator-sect .indicatorSpace .slide_indicator {
+        width: 100%; }
+        .indicator-sect .indicatorSpace .slide_indicator a {
+          font-size: 25px;
+          margin: auto; }
+        .indicator-sect .indicatorSpace .slide_indicator .indicator_Num .Numb {
+          width: 42px;
+          height: 42px;
+          font-size: 18px;
+          margin: auto 10px;
+          line-height: 2.2; } }
+  @media only screen and (min-width: 321px) and (max-width: 540px) {
+    .indicator-sect {
+      height: 80px; }
+      .indicator-sect .indicatorSpace .slide_indicator {
+        width: 100%; }
+        .indicator-sect .indicatorSpace .slide_indicator a {
+          font-size: 25px;
+          margin: auto; }
+        .indicator-sect .indicatorSpace .slide_indicator .indicator_Num .Numb {
+          width: 42px;
+          height: 42px;
+          font-size: 18px;
+          margin: auto 10px;
+          line-height: 2.2; } }
+  @media only screen and (min-width: 541px) and (max-width: 720px) {
+    .indicator-sect {
+      height: 80px; }
+      .indicator-sect .indicatorSpace .slide_indicator {
+        width: 60%; }
+        .indicator-sect .indicatorSpace .slide_indicator a {
+          font-size: 25px;
+          margin: auto; }
+        .indicator-sect .indicatorSpace .slide_indicator .indicator_Num .Numb {
+          width: 42px;
+          height: 42px;
+          font-size: 18px;
+          margin: auto 20px;
+          line-height: 2.2; } }
+  @media only screen and (min-width: 721px) and (max-width: 1024px) {
+    .indicator-sect {
+      height: 80px; }
+      .indicator-sect .indicatorSpace .slide_indicator {
+        width: 50%; }
+        .indicator-sect .indicatorSpace .slide_indicator a {
+          font-size: 25px;
+          margin: auto; }
+        .indicator-sect .indicatorSpace .slide_indicator .indicator_Num .Numb {
+          width: 42px;
+          height: 42px;
+          font-size: 18px;
+          margin: auto 36px;
+          line-height: 2.2; } }
+
+.ChemDescription {
+  height: 1150px; }
+  @media only screen and (max-width: 320px) {
+    .ChemDescription {
+      height: 2620px; } }
+  @media only screen and (min-width: 321px) and (max-width: 540px) {
+    .ChemDescription {
+      height: 2620px; } }
+
+.AeroDescription {
+  height: 1150px; }
+  @media only screen and (max-width: 320px) {
+    .AeroDescription {
+      height: 3120px; } }
+  @media only screen and (min-width: 321px) and (max-width: 540px) {
+    .AeroDescription {
+      height: 3120px; } }
+
+.MechDescription {
+  height: 1150px; }
+  @media only screen and (max-width: 320px) {
+    .MechDescription {
+      height: 3120px; } }
+  @media only screen and (min-width: 321px) and (max-width: 540px) {
+    .MechDescription {
+      height: 3120px; } }
+
+.PhyDescription {
+  height: 1150px; }
+  @media only screen and (max-width: 320px) {
+    .PhyDescription {
+      height: 3120px; } }
+  @media only screen and (min-width: 321px) and (max-width: 540px) {
+    .PhyDescription {
+      height: 3120px; } }
+
+.EngDescription {
+  height: 500px; }
+  .EngDescription h2 {
+    text-align: center;
+    color: #9c9c9c;
+    margin-top: 170px;
+    font-size: 36px; }
+  @media only screen and (max-width: 320px) {
+    .EngDescription {
+      height: 300px; }
+      .EngDescription h2 {
+        margin-top: 100px;
+        font-size: 24px; } }
+  @media only screen and (min-width: 321px) and (max-width: 540px) {
+    .EngDescription {
+      height: 300px; }
+      .EngDescription h2 {
+        font-size: 26px; } }
+
+.Ghanalocation {
+  height: 1750px; }
+  @media only screen and (max-width: 320px) {
+    .Ghanalocation {
+      height: 4170px; } }
+  @media only screen and (min-width: 321px) and (max-width: 540px) {
+    .Ghanalocation {
+      height: 4170px; } }
+
+.Nigerialocation {
+  height: 1150px; }
+  @media only screen and (max-width: 320px) {
+    .Nigerialocation {
+      height: 3130px; } }
+  @media only screen and (min-width: 321px) and (max-width: 540px) {
+    .Nigerialocation {
+      height: 3130px; } }
